@@ -1,4 +1,24 @@
-<!-- Video: 7h, Time: 1:00 -->
-<main>
-	<slot></slot>
-</main>
+<!-- Video: 7k, Time: 0:20 -->
+<script>
+	import '$lib/style.css'
+	import Header from "$lib/Header.svelte";
+	import Footer from "$lib/Footer.svelte";
+</script>
+
+<div class="wrapper">
+	<Header />
+
+	<main>
+		<slot></slot>
+	</main>
+
+	<Footer />
+</div>
+
+<style>
+	.wrapper {
+		min-height: 100dvh;
+		display: grid;
+		grid-template-rows: auto 1fr auto ;
+	}
+</style>
