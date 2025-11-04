@@ -1,1 +1,35 @@
-header
+<header>
+    <div class="outer">
+        <div class="inner spread-apart">
+            <a href="/"><img src="/logo-dark.svg" alt="Dark Logo"></a>
+            <nav>
+                <ul class="spread-apart">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                     <a href="/about">About</a>
+                     </li>
+                    <li>
+                        <a href="/wiki">Wiki</a>
+                    </li>
+                    <li>
+                        <a href="/contact">Contact</a>
+                    </li>
+                    <li>
+                        <a href="/wiki" class="button bg-gradient-pink white">Get Started</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<style>
+    .inner{
+        padding-block: 1.5rem;
+    }
+    ul {
+        list-style: none;
+    }
+</style>
