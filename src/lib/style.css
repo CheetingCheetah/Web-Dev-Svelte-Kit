@@ -79,9 +79,22 @@ img {
     width: 100%;
     height: auto;
 }
+
+h1,
+h2,
+h3 {
+   text-wrap: balance;
+}
+
+p,
+li {
+    max-width: 65ch;
+    text-wrap: pretty;
+}
+
 /* Typography */
 body {
-    font-family: "Plus Jakarta Sans", Arial, helvetica, sans-serif;
+    font-family: 'Plus Jakarta Sans', Arial, Helvetica, sans-serif;
     font-weight: 500;
     line-height: 1.6;
 }
@@ -100,7 +113,6 @@ h1 {
 p,
 li {
     color: var(--gray);
-    text-wrap: pretty;
 }
 
 /* Links & Buttons */                                                                                                                                                                                                           
@@ -173,28 +185,4 @@ button:hover,
     float: right;
     margin-left: 3rem;
     margin-bottom: 1.5rem;
-}
-
-
-/* Typography */
-body {
-    font-family: 'Plus Jakarta Sans', Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    line-height: 1.6;
-}
-
-h1,
-h2,
-h3 {
-    font-weight: 800;
-    line-height: 1.2;
-}
-
-h1 {
-    font-size: 2.5rem;
-}
-
-p,
-li {
-    color: var(--gray);
 }
