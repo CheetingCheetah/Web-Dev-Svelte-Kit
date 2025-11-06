@@ -11,13 +11,13 @@
                      <a href="/about">About</a>
                      </li>
                     <li>
-                        <a href="/wiki">Wiki</a>
+                        <a href="/blog">Blog</a>
                     </li>
                     <li>
                         <a href="/contact">Contact</a>
                     </li>
                     <li>
-                        <a href="/wiki" class="button bg-gradient-pink white">Get Started</a>
+                        <a href="/blog" class="button bg-gradient-pink white">Get Started</a>
                     </li>
                 </ul>
             </nav>
