@@ -1,18 +1,33 @@
 <script>
-    // let {} = $props()
+    let {
+        src,
+        heading,
+        text,
+        href,
+    } = $props()
 </script>
 
-<div class="bg-gradient-pink white">
-    <img src="/icons/icon-animation.svg" alt="">
-    <h3>Animation</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis!</p>
-    <a href="/blog">Read More &raquo;</a>
+<div class="flow bg-white">
+    <img {src} alt="">
+    <h3>{heading}</h3>
+    <p>{text}</p>
+    <a {href}>Read More &raquo;</a>
 </div>
 
 <style>
     div{
-        padding-block: 4rem;
-        padding-inline: 2rem;
+        position: relative;
+        padding: 2rem;
         border-radius: 1rem;
+        font-size: 1.125rem;
+    }
+    img{
+        position: absolute;
+        max-width: 3.5rem;
+        top: -1.5rem;
+    }
+    a{
+        display: inline-block;
+        font-weight: bold;
     }
 </style>
