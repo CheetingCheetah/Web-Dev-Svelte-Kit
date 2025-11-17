@@ -2,15 +2,15 @@
     let {
         src,
         heading,
-        text,
-        href,
+        description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates, odio?",
+        href="/blog",
     } = $props()
 </script>
 
 <div class="flow bg-white">
     <img {src} alt="">
     <h3>{heading}</h3>
-    <p>{text}</p>
+    <p>{description}</p>
     <a {href}>Read More &raquo;</a>
 </div>
 
