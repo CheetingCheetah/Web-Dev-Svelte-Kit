@@ -12,7 +12,7 @@
 
 <style>
     .outer{
-        background-image: url(https://picsum.photos/1600/600);
+        background-image: url(/Large-Flower-Field.webp);
         background-size: cover;
         background-position: center;
     }
