@@ -7,7 +7,7 @@
 
 <section>
 	<div class="outer">
-		<div class="inner">
+		<div class="inner flow">
 			<h2> Send us a message!</h2>
 			<Form />
 		</div>
