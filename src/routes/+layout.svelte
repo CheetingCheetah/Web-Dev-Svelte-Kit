@@ -5,6 +5,15 @@
 	import Footer from "$lib/Footer.svelte";
 </script>
 
+<!-- 
+	Prettier file exception
+
+	"files": "*.svelte",
+		"options": {
+			"parser": "svelte"
+		} 
+-->
+
 <div class="wrapper">
 	<Header />
 
