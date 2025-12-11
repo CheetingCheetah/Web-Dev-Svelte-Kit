@@ -1,4 +1,4 @@
-<!-- Video: 8f, Time: 13:00 -->
+<!-- Video: 8g, Time: 8:20 -->
 <script>
 	import '$lib/style.css'
 	import Header from "$lib/Header.svelte";
