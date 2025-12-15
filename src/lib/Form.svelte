@@ -44,9 +44,12 @@
     .form-wrapper{
         max-width: 48rem;
         display: grid;
-        grid-template-columns: 1fr 1fr;
         gap: 1.5rem;
         align-items: start;
+        
+        @media (width > 32rem) {
+            grid-template-columns: 1fr 1fr;
+        }
     }
 
     .form-item{
@@ -54,7 +57,9 @@
     }
 
     .span-2{
-        grid-column: span 2;
+         @media (width > 32rem) {
+            grid-column: span 2;
+        }
     }
 
     label{
@@ -62,6 +67,7 @@
     }
 
     input, textarea{
+        min-width: 0;
         padding: 1rem;
         font: inherit;
     }
