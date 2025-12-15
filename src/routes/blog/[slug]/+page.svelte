@@ -9,14 +9,16 @@
 <section>
     <div class="outer">
         <div class="inner">
-            <img src="{data.post.featured_image}" alt="{data.post.title}">
-            <p>{@html data.post.content}</p>
+            <div class="post-content flow">
+                <img src="{data.post.featured_image}" alt="{data.post.title}">
+                <div class="flow">{@html data.post.content}</div>
+            </div>
         </div>
     </div>
 </section>
 
 <style>
-    p{
-        margin: 2rem;
+    img{
+        max-width: 65ch;
     }
 </style>
